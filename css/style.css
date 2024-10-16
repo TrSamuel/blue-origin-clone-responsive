@@ -1,28 +1,27 @@
-
 /* colors */
-:root{
+:root {
     --primary: rgb(0, 51, 221);
+    --secondary: hsl(0, 0%, 100%);
+    --teritiary: hsl(0, 0%, 13%);
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 
-header{
+header {
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: var(--primary);
+    background-color: var(--primary)
 }
 
 
-header nav > div > .left{
+header nav>div>.left {
     margin-left: 0.5em;
 }
 
-header nav > div > .left img{
+header nav>div>.left img {
     height: 2.3em;
 }
-
-
